@@ -1,0 +1,125 @@
+.list{
+    list-style: none;
+    width: 150px;
+    height: 20px;
+    padding-left: 20px;
+    visibility: hidden;
+}
+
+.list.menu{
+    visibility: visible;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+.btn2{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: white;
+    border: none;
+    background-image: url("baseline_menu_black_24dp.png");
+    pointer-events: visible;
+}
+
+.btn2:hover{
+    opacity: 0.5;
+}
+
+.btn2:hover + .list{
+    visibility: visible;
+}
+
+.colorHome{
+    background-color: lightgray;
+}
+
+.colorBlauw{
+    background-color: blue;
+}
+
+.colorOranje{
+    background-color: orange;
+}
+
+.colorGeel{
+    background-color: yellow;
+}
+
+.colorGroen{
+    background-color: green;
+}
+
+.background-color{
+    background-color: lightgray;
+}
+
+.home{
+    visibility: hidden;
+    text-align: right;
+    font-size: 55px;
+    font-family: monospace;
+    height: 0px;
+}
+
+.home.visiblehome{
+    visibility: visible;
+}
+
+.blauw{
+    visibility: hidden;
+    text-align: right;
+    font-size: 55px;
+    font-family: monospace;
+    height: 0px;
+}
+
+.blauw.visibleblauw{
+    visibility: visible;
+}
+
+.oranje{
+    visibility: hidden;
+    text-align: right;
+    font-size: 55px;
+    font-family: monospace;
+    height: 0px;
+}
+
+.oranje.visibleoranje{
+    visibility: visible;
+}
+
+.geel{
+    visibility: hidden;
+    text-align: right;
+    font-size: 55px;
+    font-family: monospace;
+    height: 0px;
+}
+
+.geel.visiblegeel{
+    visibility: visible;
+}
+
+.groen{
+    visibility: hidden;
+    text-align: right;
+    font-size: 55px;
+    font-family: monospace;
+    height: 0px;
+}
+
+.groen.visiblegroen{
+    visibility: visible;
+}
